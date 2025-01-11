@@ -31,19 +31,14 @@
     },
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D21"
+        "soft_serial_pin": "GP2"
     },
     "matrix_pins": {
-        "cols": ["D29", "D28", "D27", "D26", "D22", "D20", "D23"],
-        "rows": ["D2", "D3", "D4", "D5", "D6", "D7", "D8"]
+        "cols": ["GP29", "GP28", "GP27", "GP26", "GP22", "GP20", "GP23"],
+        "rows": ["GP21", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8"]
     },
     "diode_direction": "COL2ROW",
-    "encoder": {
-        "rotary": [
-            {"pin_a": "D9", "pin_b": "D12"},
-            {"pin_a": "D13", "pin_b": "D14"}
-        ]
-    },
+
     "layouts": {
         "LAYOUT": {
             "layout": [
